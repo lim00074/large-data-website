@@ -29,6 +29,7 @@ This website serves as an introduction to jellyfish, and is targeted towards peo
 - <http://www.montereybayaquarium.org/animals/AnimalList.aspx?a=Invertebrates&gclid=CPWD7vW-wLkCFdAWMgoddQkAxA>
 - <http://oddstuffmagazine.com/17-most-beautiful-jellyfish-species-on-earth.html>
 - <http://www.westmeade.net/Library/jellyfish.htm>
+- <http://www.tnaqua.org/Exhibit_JLA_faq.aspx>
 
 ## Sample article
 
@@ -41,6 +42,7 @@ This website serves as an introduction to jellyfish, and is targeted towards peo
 - <http://ocean.si.edu/jellyfish-and-comb-jellies>
 - <http://www.dnr.sc.gov/marine/pub/seascience/jellyfish.html>
 - <http://www.mayoclinic.com/health/jellyfish-stings/DS01119>
+- <http://www.jellyfish.ie/irish_sea_jellyfish.asp>
 
 ## To-do
 
