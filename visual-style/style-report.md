@@ -33,3 +33,5 @@
 ### Cons
 * Younger viewers might find it boring
 * Unoriginal, in that it looks like a typical large-format website
+
+After assessing the pros and cons, I would likely go for the second version,it is the most stylistically interesting and compatible for numerous audiences.
