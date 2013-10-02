@@ -15,6 +15,17 @@
 ## Version 2
 
 ### Pros
+* Professional
+* Neutral, so it can handle any type of image
+
+### Cons
+* Younger viewers might find it boring
+* Unoriginal, in that it looks like a typical large-format website
+
+---
+## Version 3
+
+### Pros
 * Calming, naturalistic
 * Thematic: Imitates underwater sea
 * Because the background imitates the natural setting, it will compliment almost any type of image
@@ -23,15 +34,4 @@
 ### Cons
 * Diagrams and above-water images might look out of place
 
----
-## Version 3
-
-### Pros
-* Professional
-* Neutral, so it can handle any type of image
-
-### Cons
-* Younger viewers might find it boring
-* Unoriginal, in that it looks like a typical large-format website
-
-After assessing the pros and cons, I would likely go for the second version,it is the most stylistically interesting and compatible for numerous audiences.
+After assessing the pros and cons, I would likely go for the last version,it is the most stylistically interesting and compatible for numerous audiences.
