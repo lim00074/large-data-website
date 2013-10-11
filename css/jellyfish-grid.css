@@ -20,7 +20,7 @@
 .unit-spacer {
   padding: 8px;
 }
-@media only screen and (max-width: 38em) {
+@media only screen and (max-width: 25em) {
   .unit-s-hidden {
     display: none;
     visibility: hidden;
@@ -44,7 +44,7 @@
     width: 75%;
   }
 }
-@media only screen and (min-width: 38em) and (max-width: 60em) {
+@media only screen and (min-width: 25em) and (max-width: 40em) {
   .unit-m-hidden {
     display: none;
     visibility: hidden;
@@ -68,7 +68,7 @@
     width: 75%;
   }
 }
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 40em) {
   .unit-l-hidden {
     display: none;
     visibility: hidden;
