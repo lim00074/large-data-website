@@ -1,0 +1,13 @@
+/* TEAM */                           
+Jillian Lim                          
+jillian.lim5@gmail.com
+http://www.behance.net/jillianlim
+Ottawa, Canada
+						
+/* THANKS */						
+What Are Jellyfish Home content: http://science.howstuffworks.com/zoology/marine-life/jellyfish.htm
+                            
+/* SITE */                  
+Last update: 2013/10/11                       
+Standards: HTML5, CSS3                        
+Software: Dreamweaver, Adobe Illustrator, GitHub
