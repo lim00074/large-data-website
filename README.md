@@ -35,6 +35,7 @@ This website serves as an introduction to jellyfish, and is targeted towards peo
 
 - <http://en.wikipedia.org/wiki/Flower_hat_jelly>
 - <http://www.montereybayaquarium.org/animals/AnimalDetails.aspx?enc=n3f4wmcSJaORr5gfuivbgQ==>
+- <http://science.howstuffworks.com/zoology/marine-life/jellyfish.htm>
  
 ## Similar sites
 
