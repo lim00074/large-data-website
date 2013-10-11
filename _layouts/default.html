@@ -2,11 +2,17 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Jellyfish</title>
+	<title>{% if page.title %}{{page.title}} · {%endif%}</title>
 	<link href="css/jellyfish.css" rel="stylesheet">
 	<link href="css/jellyfish-grid.css" rel="stylesheet">
 <!--<link href='http://fonts.googleapis.com/css?family=Questrial|Open+Sans+Condensed:700' rel='stylesheet'>
 -->
+	{% if page.description %}
+		<meta name="description" content="{{page.description}}">
+		{% else %}
+		<meta name="description" content="{{site.description}}">
+	{% endif %}
+	
 	<meta name="handheldfriendly" content="true"><!--this is the oldest support system-->
 	<meta name="mobileoptimized" content="240"> <!--content has the minimum resolution-->
 	
@@ -27,7 +33,7 @@
 		<h1><a href="index.html">Jellyfish</a></h1>
 		<nav>
 			<ul>
-				<li><a href="index.html">What Are Jellyfish</a></li>
+				<li><a href="index.html">Introduction to Jellyfish</a></li>
 				<li><a href="life-cycle.html">Life Cycle</a></li>
 				<li><a href="toxicity.html">Jellyfish Toxicity</a></li>
 				<li><a href="species.html">Cool Jellyfish</a></li>
