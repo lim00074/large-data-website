@@ -1,13 +1,16 @@
-/* TEAM */                           
-Jillian Lim                          
+/* TEAM */
+Jillian Lim
 jillian.lim5@gmail.com
 http://www.behance.net/jillianlim
 Ottawa, Canada
-						
-/* THANKS */						
+
+/* THANKS */
+General jellyfish information: http://en.wikipedia.org/wiki/Jellyfish
 What Are Jellyfish Home content: http://science.howstuffworks.com/zoology/marine-life/jellyfish.htm
-                            
-/* SITE */                  
-Last update: 2013/10/11                       
-Standards: HTML5, CSS3                        
+Species of jellyfish content: http://www.jellyfish.ie/irish_sea_jellyfish.asp
+Irukandji jellyfish content: http://en.wikipedia.org/wiki/Irukandji_jellyfish and http://www.irukandjijellyfish.com/
+
+/* SITE */
+Last update: 2013/10/11
+Standards: HTML5, CSS3
 Software: Dreamweaver, Adobe Illustrator, GitHub
