@@ -66,7 +66,7 @@ img {
 
 @media only screen and (min-width: 100em) {
 	.main {
-		margin-left: 280px;
+		margin-left: 300px;
 	}
 }
 
@@ -215,6 +215,12 @@ ul {
 	p {
 		margin-right: 50px;
 	}
+
+@media only screen and (min-width: 100em) {
+	h2 {
+		margin-top: 16px;
+	}
+}
 
 }
 
