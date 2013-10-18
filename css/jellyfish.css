@@ -46,7 +46,7 @@ img {
 		margin-right: 15px;
 	}
 
-	main {
+	.main {
 		margin-left: 200px;
 	}
 }
@@ -61,6 +61,12 @@ img {
 		width: 50%;
 		float: left;
 		margin-right: 15px;
+	}
+}
+
+@media only screen and (min-width: 100em) {
+	.main {
+		margin-left: 280px;
 	}
 }
 
