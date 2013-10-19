@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{% if page.title %}{{page.title}} · {%endif%}</title>
-	<link href="css/jellyfish.css" rel="stylesheet">
-	<link href="css/jellyfish-grid.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/jellyfish.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/jellyfish-grid.css" rel="stylesheet">
 <!--<link href='http://fonts.googleapis.com/css?family=Questrial|Open+Sans+Condensed:700' rel='stylesheet'>
 -->
 	{% if page.description %}
@@ -47,13 +47,13 @@
 <body class="clearfix">
 
 	<header class="clearfix">
-		<h1><a href="index.html" rel="home">Jellyfish</a></h1>
+		<h1><a href="{{site.baseurl}}/index.html" rel="home">Jellyfish</a></h1>
 		<nav>
 			<ul>
-				<li><a href="index.html" rel="home">Introduction to Jellyfish</a></li>
-				<li><a href="life-cycle.html">Life Cycle</a></li>
-				<li><a href="toxicity.html">Jellyfish Toxicity</a></li>
-				<li><a href="species.html">Cool Jellyfish</a></li>
+				<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == "/index.html" %}current{% endif %}" rel="home">Introduction to Jellyfish</a></li>
+				<li><a href="{{site.baseurl}}/life-cycle.html" class="{% if page.url == "/life-cycle.html" %}current{% endif %}">Life Cycle</a></li>
+				<li><a href="{{site.baseurl}}/toxicity.html" class="{% if page.url == "/toxicity.html" %}current{% endif %}">Jellyfish Toxicity</a></li>
+				<li><a href="{{site.baseurl}}/species.html" class="{% if page.url == "/species.html" %}current{% endif %}">Cool Jellyfish</a></li>
 			</ul>
 		</nav>
 	</header>
