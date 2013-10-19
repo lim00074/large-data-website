@@ -90,6 +90,11 @@ nav a:active {
 	background-color: #00FFC3;
 }
 
+nav a:visited.current {
+	color: #00A79D;
+	background-color: #00FFC3;
+}
+
 @media only screen and (min-width: 25em) {
 	nav a,
 	nav a:link,
