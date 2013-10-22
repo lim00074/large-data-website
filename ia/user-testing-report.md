@@ -21,19 +21,21 @@ User testing was conducted by {your name} on {specific date} between the times o
 - task 1: clicked wrong link (took a little while to find)
 - task 2: correct (clicked logo)
 - task 3: correct
-- Possibly rethink name of nav for Cool Jellyfish
+- User additional comments: Possibly rethink name of nav for Cool Jellyfish
 
 ### Will Shaw
 
 - task 1: correct
 - task 2: correct (clicked logo)
 - task 3: correct
+- User additional comments: none
 
 ### Earaj Inam
 
 - task 1: clicked wrong link (took a little while to find)
 - task 2: correct (clicked logo)
 - task 3: correct
+- User additional comments: none
 
 ---
 
