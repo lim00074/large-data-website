@@ -29,15 +29,21 @@ header {
 	float: none;
 }
 
-img {
+img,
+figure {
 	width: 100%;
 }
 
-.img-species {
+figcaption {
+	font-size: 0.85rem;
+	margin: 0 5px 20px 15px;
+}
+
+.img-banner {
+	background: url("http://placehold.it/1000x300") no-repeat center top;
+	background-size: cover;
 	width: 100%;
-	float: none;
-	overflow: hidden;
-	margin: 0;
+	height: 250px;
 }
 
 @media only screen and (min-width: 40em) {
@@ -49,6 +55,10 @@ img {
 	.main {
 		margin-left: 200px;
 	}
+
+	figcaption {
+		margin-left: 0;
+	}
 }
 
 @media only screen and (min-width: 50em) {
@@ -57,11 +67,6 @@ img {
 		box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.7);
 	}
 
-	.img-species {
-		width: 50%;
-		float: left;
-		margin-right: 15px;
-	}
 }
 
 @media only screen and (min-width: 100em) {
@@ -202,6 +207,11 @@ ul {
 	padding-left: 0;
 }
 
+.li-jelly-types {
+	margin: 0 20px;
+	padding-bottom: 20px;
+	list-style: disc;
+}
 
 @media only screen and (min-width: 40em){
 	h1 {
