@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Cool Jellyfish · Jellyfish
+title: Cool Jellyfish Species · Jellyfish
 description: Jellyfish are mysterious creatures. In fact, there are about 1000 to 1500 known species that we know about today.
 url: /species
 ---
 
 <article>
 
-	<h2>Cool Jellyfish</h2>
+	<h2>Cool Jellyfish Species</h2>
 	<p>Jellyfish are truly mysterious and diverse creatures. In fact, it is estimated that there are approximately 1000 to 1500 species that we know of worldwide!</p>
 	<p>Below is information on 4 of the more popular or interesting jellyfish, in my opinion.</p>
 
 {% for jelly in site.categories.jelly %}
 	<h3>{{jelly.title}}</h3>
-	<img src="{{jelly.image}}" {{jelly.alt}}>
+	<img src="{{jelly.image}}" {{jelly.alt}} class="img-margin-bottom">
 	<ul>
 		<li><h4>Names:</h4>
 			<p>{{jelly.names}}</p>
@@ -36,7 +36,7 @@ url: /species
 		</li>
 
 		<li><h4>Other Interesting Information</h4>
-			<ul class="li-jelly-types">{{jelly.other}}</ul>
+			<ul class="ul-padding li-bullets">{{jelly.other}}</ul>
 		</li>
 	</ul>
 {% endfor %}
