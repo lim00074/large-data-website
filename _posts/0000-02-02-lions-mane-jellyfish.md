@@ -1,7 +1,7 @@
 ---
 title: Lion's Mane Jellyfish
 category: jelly
-image: http://placehold.it/300x200 
+image: http://placehold.it/300x140
 alt: alt="Picture of Lion's Mane Jellyfish"
 names: <em>Cyanea capillata</em>, hair jelly
 features: Large flat bell, red or dark brown in colour. Small individuals can have a yellowish colour. Masses of many long tentacles.

@@ -1,7 +1,7 @@
 ---
 title: Box Jellyfish
 category: jelly
-image: http://placehold.it/300x200 
+image: http://placehold.it/300x140
 alt: alt="Picture of Box Jellyfish"
 names: <em>Cubozoa</em>, sea wasp, marine stinger
 features: They are pale blue and transparent in color and get their name from the cube-like shape of their bell. Up to 15 tentacles grow from each corner of the bell and can reach 10 feet (3 meters) in length. Each tentacle has about 5,000 stinging cells, which are triggered not by touch but by the presence of a chemical on the outer layer of its prey.
