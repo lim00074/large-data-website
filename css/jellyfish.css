@@ -36,7 +36,12 @@ figure {
 
 figcaption {
 	font-size: 0.85rem;
-	margin: 0 5px 20px 15px;
+	margin: 10px 5px 20px 15px;
+	text-align: left;
+}
+
+.img-margin-bottom {
+	margin-bottom: 20px;
 }
 
 .img-banner {
@@ -44,6 +49,45 @@ figcaption {
 	background-size: cover;
 	width: 100%;
 	height: 250px;
+}
+
+.bucket-container{
+	display: block;
+}
+
+.bucket-dummy {
+	margin-top: 0;
+}
+
+.bucket-element {
+	width: 100%;
+	height: 200px;
+	border-radius: 0;
+}
+
+.bucket-anatomy {
+	background: url("http://placehold.it/400x300") no-repeat center center;
+	background-size: cover;
+}
+
+.bucket-habitat {
+	background: url("http://placehold.it/400x300") no-repeat center center;
+	background-size: cover;
+}
+
+.bucket-ecology {
+	background: url("http://placehold.it/400x300") no-repeat center center;
+	background-size: cover;
+}
+
+.bucket-toxicity {
+	background: url("http://placehold.it/400x300") no-repeat center center;
+	background-size: cover;
+}
+
+.img-toxicity {
+	float: none;
+	margin-right: 0;
 }
 
 @media only screen and (min-width: 40em) {
@@ -59,9 +103,32 @@ figcaption {
 	figcaption {
 		margin-left: 0;
 	}
+
+	.bucket-container{
+		display: inline-block;
+	}
+
+	.bucket-dummy {
+		margin-top: 10px;
+	}
+
+	.bucket-element {
+		width: 100px;
+		height: 100px;
+		border-radius: 100px;
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+	}
+
+	.img-toxicity {
+		float: left;
+		width: 37%;
+		margin-right: 10px;
+		margin-bottom: 5px;
+	}
+
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 60em) {
 	body {
 		margin: 0 12%;
 		box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.7);
@@ -69,9 +136,23 @@ figcaption {
 
 }
 
+@media only screen and (min-width: 70em) {
+	.bucket-element {
+		width: 150px;
+		height: 150px;
+		border-radius: 150px;
+	}
+}
+
 @media only screen and (min-width: 100em) {
 	.main {
 		margin-left: 300px;
+	}
+
+	.bucket-element {
+		width: 200px;
+		height: 200px;
+		border-radius: 200px;
 	}
 }
 
@@ -197,19 +278,23 @@ p {
 	margin: 0px 13px 20px 15px;
 }
 
-ul,
-ol {
-	list-style: none;
+ol li {
+	margin: 0 33px;
+	padding-bottom: 20px;
 }
 
 ul {
+	list-style: none;
 	margin: 0;
 	padding-left: 0;
 }
 
-.li-jelly-types {
-	margin: 0 20px;
+.ul-padding {
 	padding-bottom: 20px;
+}
+
+.li-bullets {
+	margin: 0 33px;
 	list-style: disc;
 }
 
@@ -224,9 +309,13 @@ ul {
 	p {
 		margin-left: 0;
 	}
+
+	.li-bullets {
+		margin: 0 20px;
+	}
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 60em) {
 	p {
 		margin-right: 50px;
 	}
