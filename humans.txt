@@ -6,11 +6,17 @@ Ottawa, Canada
 
 /* THANKS */
 Thanks to http://jsfiddle.net/ansciath/B8FU8/ for helping me to find how to maintain a height relative to the width (circle buckets)
+
+Articles:
 General jellyfish information: http://en.wikipedia.org/wiki/Jellyfish
 What Are Jellyfish Home content: http://science.howstuffworks.com/zoology/marine-life/jellyfish.htm
 Species of jellyfish content: http://www.jellyfish.ie/irish_sea_jellyfish.asp
 Irukandji jellyfish content: http://en.wikipedia.org/wiki/Irukandji_jellyfish and http://www.irukandjijellyfish.com/
 Toxicity: http://www.mayoclinic.com/health/jellyfish-stings/DS01119
+
+Images:
+Moonfish Jellyfish Bloom: wallsave.com/wallpaper/1024x768/local-disk-jellyfish-sea-monsters-a-prehistoric-adventure-movie-157465.html
+Jellyfish Anatomy and Life Cycle: http://www.zina-studio.com/p218329099
 
 /* SITE */
 Last update: 2013/10/25
