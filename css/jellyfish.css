@@ -8,7 +8,6 @@
 }
 
 html {
-	background-color: #222;
 	font-size: 100%;
 	font-family: "Gill Sans MT", "Trebuchet MS", "Myriad Pro", Arial, Helvetica, sans-serif;
 	color: #414042;
@@ -21,7 +20,10 @@ html {
 }
 
 body {
-	background-color: #fff;
+	background-image: url("/img/jellyfish-background.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: green;
 	margin: 0;
 }
 
@@ -32,9 +34,10 @@ header {
 img,
 figure {
 	width: 100%;
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-figcaption {
+.figcaption {
 	font-size: 0.85rem;
 	margin: 10px 5px 20px 15px;
 	text-align: left;
@@ -45,10 +48,11 @@ figcaption {
 }
 
 .img-banner {
-	background: url("http://placehold.it/1000x300") no-repeat center top;
+	background: url("/img/moon-jellyfish-bloom.jpg") no-repeat center center;
 	background-size: cover;
 	width: 100%;
 	height: 250px;
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .bucket-container{
@@ -63,10 +67,16 @@ figcaption {
 	width: 100%;
 	height: 200px;
 	border-radius: 0;
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.buckets {
+	margin: 0;
+	padding: 0;
 }
 
 .bucket-anatomy {
-	background: url("http://placehold.it/400x300") no-repeat center center;
+	background: url("/img/jellyfish-anatomy.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -76,7 +86,7 @@ figcaption {
 }
 
 .bucket-ecology {
-	background: url("http://placehold.it/400x300") no-repeat center center;
+	background: url("/img/jellyfish-life-cycle.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -90,6 +100,21 @@ figcaption {
 	margin-right: 0;
 }
 
+@media only screen and (min-width: 25em) {
+	.bucket-element {
+		width: 95%;
+		margin-left: 5px;
+	}
+
+	.buckets {
+		margin: 2%;
+	}
+
+	.figcaption {
+		margin-left: 5px;
+	}
+}
+
 @media only screen and (min-width: 40em) {
 	header {
 		float: left;
@@ -100,7 +125,7 @@ figcaption {
 		margin-left: 200px;
 	}
 
-	figcaption {
+	.figcaption {
 		margin-left: 0;
 	}
 
@@ -113,10 +138,10 @@ figcaption {
 	}
 
 	.bucket-element {
-		width: 100px;
-		height: 100px;
+		width: 95px;
+		height: 95px;
 		border-radius: 100px;
-		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+		margin-left: 0;
 	}
 
 	.img-toxicity {
@@ -138,8 +163,8 @@ figcaption {
 
 @media only screen and (min-width: 70em) {
 	.bucket-element {
-		width: 150px;
-		height: 150px;
+		width: 145px;
+		height: 145px;
 		border-radius: 150px;
 	}
 }
@@ -150,9 +175,9 @@ figcaption {
 	}
 
 	.bucket-element {
-		width: 200px;
-		height: 200px;
-		border-radius: 200px;
+		width: 205px;
+		height: 205px;
+		border-radius: 205px;
 	}
 }
 
@@ -168,17 +193,23 @@ nav a:visited {
 	text-decoration: none;
 	margin: 0;
 }
+nav a:visited.current {
+	color: #00A79D;
+	background-color: #00FFC3;
+}
+
+nav a:hover.current {
+	background-color: #7EFCDB;
+}
 
 nav a:hover,
 nav a:focus,
 nav a:active {
 	color: #00A79D;
-	background-color: #00FFC3;
-}
-
-nav a:visited.current {
-	color: #00A79D;
-	background-color: #00FFC3;
+	background-color: #7EFCDB;
+	-moz-box-shadow: 0 0 5px #27FFE0;
+	-webkit-box-shadow: 0 0 5px #27FFE0;
+	box-shadow: 0px 0px 5px #27FFE0;
 }
 
 @media only screen and (min-width: 25em) {
