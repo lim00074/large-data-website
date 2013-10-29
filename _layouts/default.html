@@ -44,11 +44,16 @@
 
 </head>
 
-<body class="clearfix">
+<body class="clearfix" id="top">
 
-	<header class="clearfix">
+	<ul class="skiplinks">
+		<li><a href="#main">Skip to primary content</a></li>
+		<li><a href="#navigation">Skip to navigation</a></li>
+	</ul>
+
+	<header class="clearfix" role="banner">
 		<h1><a href="{{site.baseurl}}/index.html" rel="home">Jellyfish</a></h1>
-		<nav>
+		<nav role="navigation" id="navigation">
 			<ul>
 				<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == "/index.html" %}current{% endif %}" rel="home">Introduction to Jellyfish</a></li>
 				<li><a href="{{site.baseurl}}/life-cycle.html" class="{% if page.url == "/life-cycle.html" %}current{% endif %}">Life Cycle</a></li>
@@ -58,15 +63,16 @@
 		</nav>
 	</header>
 
-	<main class="clearfix">
+	<main class="clearfix" role="main" id="main">
 		<div class="main">
 
 	{{content}}
 
 		</div>
 	</main>
-	<footer>
+	<footer role="contentinfo">
 		<p>© 2013 Jellyfish. All rights reserved.</p>
+		<a href="#top">Back to Top</a>
 	</footer>
 </body>
 </html>
