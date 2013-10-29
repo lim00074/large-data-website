@@ -256,7 +256,7 @@ nav a:active {
 	}
 }*/
 
-/*========H Styling=======*/
+/*========A Styling=======*/
 
 a {
 	color: #00639C;
@@ -268,6 +268,51 @@ a:focus,
 a:active {
 	color: #00FFC3;
 }
+
+.skiplinks {
+		margin: 0;
+		padding: 0;
+		position: absolute; /* This is so that it doesn't interfere with the rest of the site and just floats on top */
+		width: 100%; /* This is so that the link will expand into one line, instead of one word per line */
+		z-index: 3000;
+
+		font-size:1.25em;
+		font-weight: bold;
+		list-style-type: none;
+}
+
+.skiplinks a,
+.skiplinks a:link
+.skiplinks a:visited {
+	padding: 0.5em 0.75em;
+	position: absolute; /* position: absolute and top: -10em will shift the content off the screen */
+	top: -10em;
+
+	background-color: #000;
+	color:#fff;
+	text-decoration: none;
+}
+
+.skiplinks a:focus {
+	top: 0; /* This will shift the content back down so that it is visible when someone tabs on the info */
+}
+
+a,
+a:link,
+a:visited {
+	outline: none; /* Removes the keyboard selection highlight */
+}
+
+a:hover,
+a:active {
+	outline: none; /* Removes the keyboard selection highlight */
+}
+
+a:focus {
+	outline: 2px solid #000; /* Will highlight only when tabbed; nice and prominent for people with visibility impairment */
+}
+
+/*========H Styling=======*/
 
 h1,
 h2,
