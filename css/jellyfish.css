@@ -181,7 +181,6 @@ figure {
 	body {
 		margin: 0 12%;
 	}
-
 }
 
 @media only screen and (min-width: 70em) {
@@ -216,6 +215,7 @@ nav a:visited {
 	text-decoration: none;
 	margin: 0;
 }
+
 nav a:visited.current {
 	color: #00A79D;
 	background-color: #00FFC3;
@@ -421,14 +421,12 @@ ul {
 	p {
 		margin-right: 50px;
 	}
-
 }
 
 @media only screen and (min-width: 100em) {
 	h2 {
 		margin-top: 16px;
 	}
-
 }
 
 /*========FOOTER=======*/
