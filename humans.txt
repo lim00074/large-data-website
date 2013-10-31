@@ -15,10 +15,17 @@ Irukandji jellyfish content: http://en.wikipedia.org/wiki/Irukandji_jellyfish an
 Toxicity: http://www.mayoclinic.com/health/jellyfish-stings/DS01119
 
 Images:
-Moonfish Jellyfish Bloom: wallsave.com/wallpaper/1024x768/local-disk-jellyfish-sea-monsters-a-prehistoric-adventure-movie-157465.html
+Home page Moonfish Jellyfish Bloom: wallsave.com/wallpaper/1024x768/local-disk-jellyfish-sea-monsters-a-prehistoric-adventure-movie-157465.html
 Jellyfish Anatomy and Life Cycle: http://www.zina-studio.com/p218329099
+Jellyfish Habitat: blogs.evergreen.edu/ebestiary/blog/2012/05/29/moon-jellyfish/ocean264moojel_002
+Jellyfish Sign: www.squidoo.com/dangerous-australia
+Jellyfish Sting: www.actasdermo.org/en/jellyfish-sting-or-tattoo/articulo/90140436/?pubmed=true
+Moon Jellyfish: www.huffingtonpost.com/2013/10/01/jellyfish-nuclear-plant-oskarshamn-shutdown_n_4022328.html
+Lion's Mane Jellyfish: http://energianucleare.wordpress.com/category/meduse/
+Irukandji Jellyfish: www.gettyimages.ca/detail/photo/southern-sea-wasp-high-res-stock-photography/129288530
+Box Jellyfish: photography.nationalgeographic.com/wallpaper/photography/photos/underwater-oddities/box-jellyfish-doubilet/
 
 /* SITE */
-Last update: 2013/10/25
+Last update: 2013/10/31
 Standards: HTML5, CSS3
 Software: Dreamweaver, Adobe Illustrator, GitHub
