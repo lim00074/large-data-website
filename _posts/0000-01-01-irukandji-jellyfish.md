@@ -1,7 +1,7 @@
 ---
 title: Irukandji Jellyfish
 category: jelly
-image: http://placehold.it/300x140
+image: img/irukandji-jellyfish.jpg
 alt: alt="Picture of Irukandji Jellyfish"
 names: <em>Carukia barnesi</em>
 features: Irukandji jellyfish are very small with four long tentacles, which range in length from just a few centimeters up to 1 metre (3.3 ft) in length. The stingers (nematocysts) are in clumps, appearing as rings of small red dots around the bell and along the tentacles.

@@ -1,7 +1,7 @@
 ---
 title: Moon Jellyfish
 category: jelly
-image: http://placehold.it/300x140
+image: img/moon-jellyfish.jpg
 alt: alt="Picture of Moon Jellyfish"
 names: <em>Aurelia aurita</em>, common jellyfish, saucer jellyfish
 features: Four purplish/pink gonad rings. The rest of the jellyfish is transparent and has numerous short tentacles around the margin of the bell, making it difficult to see when out of the water.
