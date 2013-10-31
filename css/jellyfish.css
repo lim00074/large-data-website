@@ -81,7 +81,7 @@ figure {
 }
 
 .bucket-habitat {
-	background: url("http://placehold.it/400x300") no-repeat center center;
+	background: url("/img/jellyfish-habitat.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -91,7 +91,7 @@ figure {
 }
 
 .bucket-toxicity {
-	background: url("http://placehold.it/400x300") no-repeat center center;
+	background: url("/img/jellyfish-toxicity.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -113,6 +113,13 @@ figure {
 	.figcaption {
 		margin-left: 5px;
 	}
+
+	.img-toxicity {
+		float: left;
+		width: 35%;
+		margin: 0 10px 5px 15px;
+	}
+
 }
 
 @media only screen and (min-width: 40em) {
@@ -145,10 +152,8 @@ figure {
 	}
 
 	.img-toxicity {
-		float: left;
 		width: 37%;
-		margin-right: 10px;
-		margin-bottom: 5px;
+		margin-left: 0;
 	}
 
 }
@@ -189,7 +194,7 @@ nav a:visited {
 	display: block;
 	padding: 13px 20px;
 	color: #00FFC3;
-	background-color: #00639C;
+	background-color: #00548f;
 	text-decoration: none;
 	margin: 0;
 }
@@ -259,7 +264,7 @@ nav a:active {
 /*========A Styling=======*/
 
 a {
-	color: #00639C;
+	color: #00548f;
 	text-decoration: none;
 }
 
@@ -310,6 +315,7 @@ a:active {
 
 a:focus {
 	outline: 2px solid #000; /* Will highlight only when tabbed; nice and prominent for people with visibility impairment */
+	background-color: black;
 }
 
 /*========H Styling=======*/
@@ -318,14 +324,16 @@ h1,
 h2,
 h3,
 h4 {
-	color: #00639C;
+	font-family: "Open Sans Condensed", "Gill Sans MT", "Trebuchet MS", "Myriad Pro", Arial, Helvetica, sans-serif;
+	color: #00548f;
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2.6rem;
 	text-align: center;
 	padding-left: 10px;
-	margin: 0 10px 10px 0;
+	padding-top: 5px;
+	margin: 0px 10px 10px 0;
 }
 
 h2,
@@ -340,7 +348,7 @@ h2 {
 
 h3 {
 	font-size: 1.55rem;
-	border-top: 2px dotted #00639C;
+	border-top: 2px dotted #00377b;
 }
 
 h4 {
