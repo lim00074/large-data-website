@@ -32,7 +32,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="{% if page.title %}{{page.title}}{%endif%}">
 	<meta property="og:url" content="http://lim00074.github.io/large-data-website{% if page.url%}{{page.url}}{%endif%}">
-	<meta property="og:image" content="http://placehold.it/200x200">
+	<meta property="og:image" content="{% if page.picture %}{{page.picture}}{%endif%}">
 	<meta property="og:site_name" content="The Jellyfish Experts">
 	<meta property="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
 
