@@ -20,6 +20,11 @@
 .unit-spacer {
   padding: 8px;
 }
+
+.margin-bottom {
+  margin-bottom: 17px;
+}
+
 @media only screen and (max-width: 25em) {
   .unit-s-hidden {
     display: none;
