@@ -10,10 +10,10 @@ picture: image-jellyfish-species.jpg
 
 	<h2>Cool Jellyfish Species</h2>
 	<p>Jellyfish are truly mysterious and diverse creatures. In fact, it is estimated that there are approximately 1000 to 1500 species that we know of worldwide!</p>
-	<p>Below is information on 4 of the more popular or interesting jellyfish, in my opinion.</p>
+	<p>To see a variety of some of the more renown jellyfish, you can look at a collection of beautiful <a href="{{site.baseurl}}/gallery.html">jellyfish pictures</a>, or you can continue reading below for information on 4 of the more popular or factually interesting jellyfish, in my personal opinion.</p>
 
 {% for jelly in site.categories.jelly %}
-	<h3>{{jelly.title}}</h3>
+	<h3 id="{{jelly.link}}">{{jelly.title}}</h3>
 	<img src="{{jelly.image}}" {{jelly.alt}} class="img-margin-bottom">
 	<ul>
 		<li><h4>Names:</h4>
