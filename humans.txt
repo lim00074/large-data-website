@@ -13,8 +13,21 @@ What Are Jellyfish Home content: http://science.howstuffworks.com/zoology/marine
 Species of jellyfish content: http://www.jellyfish.ie/irish_sea_jellyfish.asp
 Irukandji jellyfish content: http://en.wikipedia.org/wiki/Irukandji_jellyfish and http://www.irukandjijellyfish.com/
 Toxicity: http://www.mayoclinic.com/health/jellyfish-stings/DS01119
+Jellyfish Lake: http://www.atlasobscura.com/places/jellyfish-lake
 
-Images:
+Gallery:
+Bell, Crown, and Flower Hat Jellyfish: montereybayaquarium.org
+Benthocodon Jellyfish: www.smithsonianmag.com/multimedia/photos/?articleID=10033636&page=4
+Box Jellyfish: openwaterpedia.com/index.php?title=Box_jellyfish
+Comb Jellyfish: diveadvisor.com/sub2o/comb-jellies-the-lanterns-of-the-ocean
+Compass Jellyfish: http://wallpaperswide.com/beautiful_jellyfish-wallpapers.html
+Fried Egg Jellyfish: www.delo.si/druzba/panorama/po-morju-plavajo-ocvrta-jajca.html
+Golden Jellyfish: blog.roomorama.com/2012/04/27/friday-listicle-top-ten-most-unique-lakes-in-the-world
+Lion's Mane, and Mauve Stinger Jellyfish: http://lbc9.com/animals/marine-life/jellyfish/
+Purple Striped Jellyfish: www.baue.org/images/galleries/v/FieldGuide/Cnidarians/Chrysaora_colorata/slideshow.html
+White Spotted Jellyfish: wallippo.com/wallpaper/jellyfish-49d671c6624554049bc47f349ee66d8d
+
+Other Images Throughout the Website:
 Home page Moonfish Jellyfish Bloom: wallsave.com/wallpaper/1024x768/local-disk-jellyfish-sea-monsters-a-prehistoric-adventure-movie-157465.html
 Jellyfish Anatomy and Life Cycle: http://www.zina-studio.com/p218329099
 Jellyfish Habitat: blogs.evergreen.edu/ebestiary/blog/2012/05/29/moon-jellyfish/ocean264moojel_002
@@ -24,8 +37,10 @@ Moon Jellyfish: www.huffingtonpost.com/2013/10/01/jellyfish-nuclear-plant-oskars
 Lion's Mane Jellyfish: http://energianucleare.wordpress.com/category/meduse/
 Irukandji Jellyfish: www.gettyimages.ca/detail/photo/southern-sea-wasp-high-res-stock-photography/129288530
 Box Jellyfish: photography.nationalgeographic.com/wallpaper/photography/photos/underwater-oddities/box-jellyfish-doubilet/
+Turtle Eating Jellyfish: theseamonster.net/2012/10/scents-and-sensibility
+Cladonema Jellyfish: http://www.nano-reef.com/gallery/image/33083-cladonema-jellyfish/
 
 /* SITE */
-Last update: 2013/10/31
+Last update: 2013/11/02
 Standards: HTML5, CSS3
-Software: Dreamweaver, Adobe Illustrator, GitHub
+Software: Dreamweaver, Sublime Text 3, Adobe Illustrator, GitHub
