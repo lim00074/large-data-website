@@ -1,6 +1,7 @@
 ---
 title: Moon Jellyfish
 category: jelly
+link: moon
 image: img/moon-jellyfish.jpg
 alt: alt="Picture of Moon Jellyfish"
 names: <em>Aurelia aurita</em>, common jellyfish, saucer jellyfish

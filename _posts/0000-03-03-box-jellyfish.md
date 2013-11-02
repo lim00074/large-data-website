@@ -1,6 +1,7 @@
 ---
 title: Box Jellyfish
 category: jelly
+link: box
 image: img/box-jellyfish.jpg
 alt: alt="Picture of Box Jellyfish"
 names: <em>Cubozoa</em>, sea wasp, marine stinger

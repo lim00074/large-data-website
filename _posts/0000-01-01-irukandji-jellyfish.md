@@ -1,6 +1,7 @@
 ---
 title: Irukandji Jellyfish
 category: jelly
+link: irukandji
 image: img/irukandji-jellyfish.jpg
 alt: alt="Picture of Irukandji Jellyfish"
 names: <em>Carukia barnesi</em>

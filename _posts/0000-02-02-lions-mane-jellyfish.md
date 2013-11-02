@@ -1,6 +1,7 @@
 ---
 title: Lion's Mane Jellyfish
 category: jelly
+link: lions-mane
 image: img/lions-mane-jellyfish.jpg
 alt: alt="Picture of Lion's Mane Jellyfish"
 names: <em>Cyanea capillata</em>, hair jelly
