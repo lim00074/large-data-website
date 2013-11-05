@@ -1,6 +1,6 @@
 # User Testing Report
 
-User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
+User testing was conducted by Jillian Lim on Octoer 21, 2013 between the times of 8:30 and 9:30 with the following participants:
 
 - Jesus Monsalve
 - Will Shaw
