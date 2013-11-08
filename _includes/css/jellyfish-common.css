@@ -12,14 +12,14 @@ html {
 	font-family: "Gill Sans MT", "Trebuchet MS", "Myriad Pro", Arial, Helvetica, sans-serif;
 	color: #414042;
 
-	background-color: #83ead3;
+	background-color: #02b9c3;
 
-	background-image: url(../img/jellyfish-background-rays.svg), -ms-radial-gradient(left top, circle farthest-corner, #94ffe3 0%, #00959d 100%);
-	background-image: url(../img/jellyfish-background-rays.svg), -moz-radial-gradient(left top, circle farthest-corner, #94ffe3 0%, #00959d 100%);
-	background-image: url(../img/jellyfish-background-rays.svg), -o-radial-gradient(left top, circle farthest-corner, #94ffe3 0%, #00959d 100%);
-	background-image: url(../img/jellyfish-background-rays.svg), -webkit-gradient(radial, left top, 0, left top, 971, color-stop(0, #94ffe3), color-stop(1, #00959d));
-	background-image: url(../img/jellyfish-background-rays.svg), -webkit-radial-gradient(left top, circle farthest-corner, #94ffe3 0%, #00959d 100%);
-	background-image: url(../img/jellyfish-background-rays.svg), radial-gradient(circle farthest-corner at left top, #94ffe3 0%, #00959d 100%);
+	background-image: url(../img/jellyfish-background-rays.svg), -ms-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
+	background-image: url(../img/jellyfish-background-rays.svg), -moz-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
+	background-image: url(../img/jellyfish-background-rays.svg), -o-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
+	background-image: url(../img/jellyfish-background-rays.svg), -webkit-gradient(radial, left top, 0, left top, 971, color-stop(0, #90f8de), color-stop(1, #00959d));
+	background-image: url(../img/jellyfish-background-rays.svg), -webkit-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
+	background-image: url(../img/jellyfish-background-rays.svg), radial-gradient(circle farthest-corner at left top, #90f8de 0%, #00959d 100%);
 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -171,7 +171,11 @@ figure {
 }
 
 .fig-left {
-	margin-left: 0;
+	margin-left: ;
+}
+
+.fig-align-left {
+	text-align: ;
 }
 
 @media only screen and (min-width: 25em) {
@@ -212,6 +216,10 @@ figure {
 
 	.figcaption {
 		text-align: center;
+	}
+
+	.fig-align-left {
+		text-align: left;
 	}
 
 	.bucket-container{
