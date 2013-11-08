@@ -11,6 +11,18 @@ html {
 	font-size: 100%;
 	font-family: "Gill Sans MT", "Trebuchet MS", "Myriad Pro", Arial, Helvetica, sans-serif;
 	color: #414042;
+
+	background-color: #83ead3;
+
+	background-image: url(../img/jellyfish-background-rays.svg), -ms-radial-gradient(left top, circle farthest-corner, #94ffe3 0%, #00959d 100%);
+	background-image: url(../img/jellyfish-background-rays.svg), -moz-radial-gradient(left top, circle farthest-corner, #94ffe3 0%, #00959d 100%);
+	background-image: url(../img/jellyfish-background-rays.svg), -o-radial-gradient(left top, circle farthest-corner, #94ffe3 0%, #00959d 100%);
+	background-image: url(../img/jellyfish-background-rays.svg), -webkit-gradient(radial, left top, 0, left top, 971, color-stop(0, #94ffe3), color-stop(1, #00959d));
+	background-image: url(../img/jellyfish-background-rays.svg), -webkit-radial-gradient(left top, circle farthest-corner, #94ffe3 0%, #00959d 100%);
+	background-image: url(../img/jellyfish-background-rays.svg), radial-gradient(circle farthest-corner at left top, #94ffe3 0%, #00959d 100%);
+
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 @media only screen and (min-width: 100em) {
@@ -20,19 +32,10 @@ html {
 }
 
 body {
-	background-color: #83ead3;
-
-/*GRADIENT BACKGROUND:
-	background-image: -ms-radial-gradient(left top, circle farthest-corner, #7BF1DC 0%, #00809D 100%);
-	background-image: -moz-radial-gradient(left top, circle farthest-corner, #7BF1DC 0%, #00809D 100%);
-	background-image: -o-radial-gradient(left top, circle farthest-corner, #7BF1DC 0%, #00809D 100%);
-	background-image: -webkit-gradient(radial, left top, 0, left top, 971, color-stop(0, #7BF1DC), color-stop(1, #00809D));
-	background-image: -webkit-radial-gradient(left top, circle farthest-corner, #7BF1DC 0%, #00809D 100%);
-	background-image: radial-gradient(circle farthest-corner at left top, #7BF1DC 0%, #00809D 100%);*/
 
 	margin: 0;
 
-	background-image: url("../img/jellyfish-background.svg");
+/*	background-image: url("../img/jellyfish-background.svg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -167,6 +170,10 @@ figure {
 	margin-right: 0;
 }
 
+.fig-left {
+	margin-left: 0;
+}
+
 @media only screen and (min-width: 25em) {
 	.bucket-element {
 		width: 95%;
@@ -204,7 +211,7 @@ figure {
 	}
 
 	.figcaption {
-		margin-left: 0;
+		text-align: center;
 	}
 
 	.bucket-container{
@@ -227,6 +234,10 @@ figure {
 		margin-left: 0;
 	}
 
+	.fig-left {
+		margin-left: -15px;
+	}
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -240,6 +251,10 @@ figure {
 		width: 145px;
 		height: 145px;
 		border-radius: 150px;
+	}
+
+	.fig-left {
+		margin-left: 0;
 	}
 }
 
@@ -270,7 +285,7 @@ nav a:visited {
 
 nav a:visited.current {
 	color: #00A79D;
-	background-color: #00FFC3;
+	background-color: #0cedb2;
 }
 
 nav a:hover.current {
