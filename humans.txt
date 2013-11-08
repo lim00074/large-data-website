@@ -38,9 +38,10 @@ Lion's Mane Jellyfish: http://energianucleare.wordpress.com/category/meduse/
 Irukandji Jellyfish: www.gettyimages.ca/detail/photo/southern-sea-wasp-high-res-stock-photography/129288530
 Box Jellyfish: photography.nationalgeographic.com/wallpaper/photography/photos/underwater-oddities/box-jellyfish-doubilet/
 Turtle Eating Jellyfish: theseamonster.net/2012/10/scents-and-sensibility
+Jellyfish Bloom: http://jerseyfraiche.tumblr.com/
 Cladonema Jellyfish: http://www.nano-reef.com/gallery/image/33083-cladonema-jellyfish/
 
 /* SITE */
-Last update: 2013/11/02
+Last update: 2013/11/08
 Standards: HTML5, CSS3
 Software: Dreamweaver, Sublime Text 3, Adobe Illustrator, GitHub
