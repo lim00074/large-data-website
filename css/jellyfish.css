@@ -2,4 +2,4 @@
 ---
 
 {% include css/jellyfish-common.css %}
-{% include css/jellyfish-grid.css %}
+{% include css/jellyfish-grid.min.css %}
