@@ -40,8 +40,9 @@ Box Jellyfish: photography.nationalgeographic.com/wallpaper/photography/photos/u
 Turtle Eating Jellyfish: theseamonster.net/2012/10/scents-and-sensibility
 Jellyfish Bloom: http://jerseyfraiche.tumblr.com/
 Cladonema Jellyfish: http://www.nano-reef.com/gallery/image/33083-cladonema-jellyfish/
+404 Turtle Illustration: http://graphicleftovers.com/graphic/1596772-funny-turtle-baby-eating
 
 /* SITE */
-Last update: 2013/11/08
+Last update: 2013/11/12
 Standards: HTML5, CSS3
 Software: Dreamweaver, Sublime Text 3, Adobe Illustrator, GitHub
