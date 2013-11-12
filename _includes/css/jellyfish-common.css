@@ -14,30 +14,38 @@ html {
 
 	background-color: #02b9c3;
 
-	background-image: url(../img/jellyfish-background-rays.svg), -ms-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
-	background-image: url(../img/jellyfish-background-rays.svg), -moz-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
-	background-image: url(../img/jellyfish-background-rays.svg), -o-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
-	background-image: url(../img/jellyfish-background-rays.svg), -webkit-gradient(radial, left top, 0, left top, 971, color-stop(0, #90f8de), color-stop(1, #00959d));
-	background-image: url(../img/jellyfish-background-rays.svg), -webkit-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
-	background-image: url(../img/jellyfish-background-rays.svg), radial-gradient(circle farthest-corner at left top, #90f8de 0%, #00959d 100%);
+	background-image: -ms-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
+	background-image: -moz-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
+	background-image: -o-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
+	background-image: -webkit-gradient(radial, left top, 0, left top, 971, color-stop(0, #90f8de), color-stop(1, #00959d));
+	background-image: -webkit-radial-gradient(left top, circle farthest-corner, #90f8de 0%, #00959d 100%);
+	background-image: radial-gradient(circle farthest-corner at left top, #90f8de 0%, #00959d 100%);
 
+	background-attachment: fixed;
+}
+
+body {
+	background-image: url(../img/jellyfish-background-rays.svg);
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media only screen and (min-width: 60em) {
+	.body {
+		margin: 0 12%;
+	}
 }
 
 @media only screen and (min-width: 100em) {
 	html {
 		font-size: 150%;
 	}
-}
-
-body {
-
-	margin: 0;
-
-/*	background-image: url("../img/jellyfish-background.svg");*/
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 header {
@@ -178,6 +186,24 @@ figure {
 	text-align: ;
 }
 
+.img-404 {
+	float: left;
+	width: 20%;
+	box-shadow: none;
+	margin: 20px;
+	margin-right: 0;
+	display: inline-block;
+}
+
+.content-404 {
+	width: 63%;
+	display: inline-block;
+	background-color: #fff;
+	padding: 15px 0 0 0;
+	margin: 10px 0 20px 0px;
+	border-radius: 10px;
+}
+
 @media only screen and (min-width: 25em) {
 	.bucket-element {
 		width: 95%;
@@ -246,12 +272,12 @@ figure {
 		margin-left: -15px;
 	}
 
-}
-
-@media only screen and (min-width: 60em) {
-	body {
-		margin: 0 12%;
+	.content-404 {
+		margin-top: 27px;
+		margin-left: -5px;
+		padding-left: 15px;
 	}
+
 }
 
 @media only screen and (min-width: 70em) {
@@ -516,9 +542,17 @@ ul {
 
 /*========FOOTER=======*/
 footer {
+	display: block;
 	text-align:center;
 	margin-top: 15px;
+	padding-bottom: 10px;
 	font-size: 0.75rem;
+
+/*	position: absolute;
+	height: 40px;
+	width: 100%;
+	bottom: 0;
+	clear: both;*/
 }
 
 /*========CLEARFIX=======*/
