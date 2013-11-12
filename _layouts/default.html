@@ -45,37 +45,39 @@
 </head>
 
 <body class="clearfix" id="top">
+	<article class="body">
 
-	<ul class="skiplinks">
-		<li><a href="#main">Skip to primary content</a></li>
-		<li><a href="#navigation">Skip to navigation</a></li>
-	</ul>
+		<ul class="skiplinks">
+			<li><a href="#main">Skip to primary content</a></li>
+			<li><a href="#navigation">Skip to navigation</a></li>
+		</ul>
 
-	<header class="clearfix" role="banner">
-		<h1><a href="{{site.baseurl}}/index.html" rel="home"><span class="home">Home Page: Introduction to </span>Jellyfish</a></h1>
-		<nav role="navigation" id="navigation">
-			<ul>
-				<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == "/index.html" %}current{% endif %}" rel="home"><span class="home">Home Page: </span>Introduction to Jellyfish</a></li>
-				<li><a href="{{site.baseurl}}/anatomy.html" class="{% if page.url == "/anatomy.html" %}current{% endif %}">Anatomy</a></li>
-				<li><a href="{{site.baseurl}}/life-cycle.html" class="{% if page.url == "/life-cycle.html" %}current{% endif %}">Life Cycle & Ecology</a></li>
-				<li><a href="{{site.baseurl}}/toxicity.html" class="{% if page.url == "/toxicity.html" %}current{% endif %}">Jellyfish Toxicity</a></li>
-				<li><a href="{{site.baseurl}}/species.html" class="{% if page.url == "/species.html" %}current{% endif %}">Cool Jellyfish Species</a></li>
-				<li><a href="{{site.baseurl}}/gallery.html" class="{% if page.url == "/gallery.html" %}current{% endif %}">Picture Gallery</a></li>
-			</ul>
-		</nav>
-	</header>
+		<header class="clearfix" role="banner">
+			<h1><a href="{{site.baseurl}}/index.html" rel="home"><span class="home">Home Page: Introduction to </span>Jellyfish</a></h1>
+			<nav role="navigation" id="navigation">
+				<ul>
+					<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == "/index.html" %}current{% endif %}" rel="home"><span class="home">Home Page: </span>Introduction to Jellyfish</a></li>
+					<li><a href="{{site.baseurl}}/anatomy.html" class="{% if page.url == "/anatomy.html" %}current{% endif %}">Anatomy</a></li>
+					<li><a href="{{site.baseurl}}/life-cycle.html" class="{% if page.url == "/life-cycle.html" %}current{% endif %}">Life Cycle & Ecology</a></li>
+					<li><a href="{{site.baseurl}}/toxicity.html" class="{% if page.url == "/toxicity.html" %}current{% endif %}">Jellyfish Toxicity</a></li>
+					<li><a href="{{site.baseurl}}/species.html" class="{% if page.url == "/species.html" %}current{% endif %}">Cool Jellyfish Species</a></li>
+					<li><a href="{{site.baseurl}}/gallery.html" class="{% if page.url == "/gallery.html" %}current{% endif %}">Picture Gallery</a></li>
+				</ul>
+			</nav>
+		</header>
 
-	<main class="clearfix" role="main" id="main">
-		<div class="main">
+		<main class="clearfix" role="main" id="main">
+			<div class="main">
 
-	{{content}}
+		{{content}}
 
-			<p><a href="#top">Back to Top</a></p>
-		</div>
+				<p><a href="#top">Back to Top</a></p>
+			</div>
 
-	</main>
-	<footer role="contentinfo">
-		<p>© 2013 Jellyfish. All rights reserved.</p>
-	</footer>
+		</main>
+		<footer role="contentinfo">
+			<p>© 2013 Jellyfish. All rights reserved.</p>
+		</footer>
+	</article>
 </body>
 </html>
