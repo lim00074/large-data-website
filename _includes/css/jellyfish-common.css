@@ -179,11 +179,11 @@ figure {
 }
 
 .fig-left {
-	margin-left: ;
+	margin-left: 0;
 }
 
 .fig-align-left {
-	text-align: ;
+	text-align: auto;
 }
 
 .img-404 {
