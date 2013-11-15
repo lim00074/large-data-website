@@ -14,7 +14,7 @@ picture: image-jellyfish-species.jpg
 
 {% for jelly in site.categories.jelly %}
 	<h3 id="{{jelly.link}}">{{jelly.title}}</h3>
-	<img src="{{jelly.image}}" {{jelly.alt}} class="img-margin-bottom">
+	<img class="img-margin-bottom" src="{{jelly.image}}" {{jelly.alt}}>
 	<ul>
 		<li><h4>Names:</h4>
 			<p>{{jelly.names}}</p>
