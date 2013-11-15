@@ -204,6 +204,15 @@ figure {
 	border-radius: 10px;
 }
 
+.img-banner,
+.bucket-anatomy,
+.bucket-species,
+.bucket-ecology,
+.bucket-toxicity,
+.gallery {
+	background-color: #00548f;
+}
+
 @media only screen and (min-width: 25em) {
 	.bucket-element {
 		width: 95%;
