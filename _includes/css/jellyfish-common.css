@@ -48,9 +48,32 @@ body {
 	}
 }
 
+/* Other background properties */
+
 header {
 	float: none;
 }
+
+@media only screen and (min-width: 40em) {
+	header {
+		position: absolute;
+		margin-right: 15px;
+		width: 186px;
+	}
+
+	.main {
+		margin-left: 200px;
+	}
+
+}
+
+@media only screen and (min-width: 100em) {
+	.main {
+		margin-left: 300px;
+	}
+}
+
+	/* IMAGES */
 
 img,
 figure {
@@ -240,14 +263,6 @@ figure {
 }
 
 @media only screen and (min-width: 40em) {
-	header {
-		position: absolute;
-		margin-right: 15px;
-	}
-
-	.main {
-		margin-left: 200px;
-	}
 
 	.figcaption {
 		text-align: center;
@@ -302,9 +317,6 @@ figure {
 }
 
 @media only screen and (min-width: 100em) {
-	.main {
-		margin-left: 300px;
-	}
 
 	.bucket-element {
 		width: 205px;
