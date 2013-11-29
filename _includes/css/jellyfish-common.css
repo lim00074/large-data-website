@@ -34,6 +34,18 @@ body {
 	padding: 0;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	/*For IE8 compatibility (browsers that DON'T support media queries):*/
+	max-width: 700px;
+	margin: 0 auto; /*This centers the content*/
+}
+
+/*This is to detect if the browser supports media queries or not, and if it does, then NOT to use the max-width: 700px
+The min-width is an arbitrary number, but we use 240 because that is the smallest width you can use for mobile*/
+@media only screen and (min-width: 240px) {
+	body {
+		max-width: none;
+	}
 }
 
 @media only screen and (min-width: 60em) {
