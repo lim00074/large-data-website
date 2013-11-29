@@ -26,6 +26,10 @@ html {
 
 body {
 	background-image: url(../img/jellyfish-background-rays.svg);
+
+	/*For IE8 compatibility (browsers that DON'T support media queries):*/
+	max-width: 700px;
+	margin: 0 auto; /*This centers the content*/
 }
 
 html,
@@ -34,10 +38,6 @@ body {
 	padding: 0;
 	background-repeat: no-repeat;
 	background-size: cover;
-
-	/*For IE8 compatibility (browsers that DON'T support media queries):*/
-	max-width: 700px;
-	margin: 0 auto; /*This centers the content*/
 }
 
 /*This is to detect if the browser supports media queries or not, and if it does, then NOT to use the max-width: 700px
