@@ -40,30 +40,16 @@ body {
 	background-size: cover;
 }
 
+header {
+	float: none;
+}
+
 /*This is to detect if the browser supports media queries or not, and if it does, then NOT to use the max-width: 700px
 The min-width is an arbitrary number, but we use 240 because that is the smallest width you can use for mobile*/
 @media only screen and (min-width: 240px) {
 	body {
 		max-width: none;
 	}
-}
-
-@media only screen and (min-width: 60em) {
-	.body {
-		margin: 0 12%;
-	}
-}
-
-@media only screen and (min-width: 100em) {
-	html {
-		font-size: 150%;
-	}
-}
-
-/* Other background properties */
-
-header {
-	float: none;
 }
 
 @media only screen and (min-width: 40em) {
@@ -79,10 +65,24 @@ header {
 
 }
 
-@media only screen and (min-width: 100em) {
-	.main {
-		margin-left: 300px;
+@media only screen and (min-width: 60em) {
+	.body {
+		margin: 0 12%;
 	}
+}
+
+@media only screen and (min-width: 100em) {
+	html {
+		font-size: 150%;
+	}
+
+	header {
+		width: 270px;
+	}
+
+		.main {
+			margin-left: 300px;
+		}
 }
 
 	/* IMAGES */
@@ -330,10 +330,35 @@ figure {
 
 @media only screen and (min-width: 100em) {
 
+	.img-banner {
+		height: 363px;
+	}
+	
 	.bucket-element {
 		width: 205px;
 		height: 205px;
 		border-radius: 205px;
+	}
+
+	.gallery {
+		height: 500px;
+	}
+}
+
+@media only screen and (min-width: 140em) {
+
+	.bucket-element {
+		width: 300px;
+		height: 300px;
+		border-radius: 300px;
+	}
+
+	.gallery {
+		height: 700px;
+	}
+
+	.img-float-width {
+		width: 30%;
 	}
 }
 
